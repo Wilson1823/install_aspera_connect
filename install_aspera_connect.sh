@@ -30,10 +30,7 @@
 
 printf 'Get Aspera Connect download URL for the last version...\n\n'
 
-aspera_connect_url=$(
-    curl 'https://downloads.asperasoft.com/en/downloads/8?list' \
-      | grep -oE 'https://download.asperasoft.com/download/sw/connect/[0-9.]+/ibm-aspera-connect-[0-9.]+-linux-.+\.tar.gz'
-)
+aspera_connect_url="https://d3gcli72yxqn2z.cloudfront.net/connect_latest/v4/bin/ibm-aspera-connect-3.11.2.63-linux-g2.12-64.tar.gz"
 
 printf "\n  ${aspera_connect_url}\n\n";
 
