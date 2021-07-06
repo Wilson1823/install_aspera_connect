@@ -4,7 +4,7 @@
 
 ```bash
 # Clone this repository.
-git clone https://github.com/aertslab/install_aspera_connect
+git clone https://github.com/Wilson1823/install_aspera_connect
 
 cd install_aspera_connect
 
